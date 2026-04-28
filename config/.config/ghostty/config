@@ -1,5 +1,7 @@
-window-decoration = false
+# window-decoration = false
 window-padding-x = 16
 cursor-style-blink = false
-font-family = 'Monaspace Neon'
-theme = dark:catppuccin-mocha,light:catppuccin-latte
+font-family = 'JetBrains Mono'
+background-opacity = 0.9
+background-blur-radius = 20
+theme = Catppuccin Mocha
