@@ -9,17 +9,16 @@
 		"dbaeumer.vscode-eslint",
 		"eamodio.gitlens",
 		"esbenp.prettier-vscode",
-		"github.vscode-pull-request-github",
+		"fabiospampinato.vscode-todo-plus",
 		"inu1255.easy-snippet",
 		"jkjustjoshing.vscode-text-pastry",
-		"miguelsolorio.symbols",
-		"mikestead.dotenv",
 		"phoenisx.cssvar",
 		"pmndrs.pmndrs",
+		"qwtel.sqlite-viewer",
+		"rangav.vscode-thunder-client",
 		"sleistner.vscode-fileutils",
-		"supermaven.supermaven",
 		"svelte.svelte-vscode",
 		"vivaxy.vscode-conventional-commits",
-		"yoavbls.pretty-ts-errors"
-	]
+		"yoavbls.pretty-ts-errors",
+	],
 }

@@ -1,12 +1,12 @@
 {
-	// Interface
+	// editor
 	"window.title": "${activeEditorShort}",
 	"window.titleBarStyle": "native",
 	"window.customTitleBarVisibility": "never",
 	"window.menuBarVisibility": "hidden",
 	"window.commandCenter": false,
 	"window.zoomLevel": 1,
-	"workbench.colorTheme": "Catppuccin Mocha",
+	"workbench.colorTheme": "poimandres-noitalics",
 	"workbench.iconTheme": "catppuccin-mocha",
 	"workbench.startupEditor": "none",
 	"workbench.sideBar.location": "left",
@@ -21,7 +21,7 @@
 	"workbench.statusBar.visible": true,
 	"workbench.panel.showLabels": false,
 	"editor.folding": true,
-	"editor.glyphMargin": false,
+	"editor.glyphMargin": true,
 	"editor.lineNumbers": "on",
 	"editor.lightbulb.enabled": "off",
 	"editor.minimap.enabled": false,
@@ -35,100 +35,109 @@
 	"explorer.autoReveal": false,
 	"breadcrumbs.enabled": true,
 	"breadcrumbs.symbolPath": "off",
-	"symbols.hidesExplorerArrows": false,
-	// Font
-	"editor.fontFamily": "Monaspace Neon, MonoLisa, Geist Mono, Monocraft, JetBrains Mono, IBM Plex Mono, Mononoki Nerd Font, Droid Sans Mono, Anonymous Pro, Operator Mono Book, Fira Code, Cascadia Code",
-	"editor.fontLigatures": "'calt', 'liga', 'dlig', 'ss01', 'ss02'",
+	"chat.disableAIFeatures": true,
+	// customizations
+	"workbench.colorCustomizations": {
+		"[poimandres-noitalics]": {
+			"activityBar.background": "#141722",
+			"sideBar.background": "#141722",
+			"sideBarSectionHeader.background": "#141722",
+			"statusBar.background": "#141722",
+			"tab.activeBackground": "#141722",
+			"breadcrumb.background": "#141722",
+			"editor.background": "#141722",
+			"editorGutter.background": "#141722",
+			"panel.background": "#141722",
+			"activityBar.border": "#252a38",
+			"sideBar.border": "#252a38",
+			"editorGroupHeader.border": "#252a38",
+			"panel.border": "#252a38",
+			"statusBar.border": "#252a38",
+		},
+	},
+	// font
+	"editor.fontFamily": "JetBrains Mono",
+	// "editor.fontFamily": "Monaspace Neon, MonoLisa, Geist Mono, Monocraft, JetBrains Mono, IBM Plex Mono, Mononoki Nerd Font, Droid Sans Mono, Anonymous Pro, Operator Mono Book, Fira Code, Cascadia Code",
+	// "editor.fontLigatures": "'calt', 'liga', 'dlig', 'ss01', 'ss02'",
 	"editor.fontSize": 14,
+	"editor.fontWeight": "600",
 	"editor.lineHeight": 2,
 	"editor.tabSize": 2,
 	"editor.wordWrap": "on",
-	// Terminal
+	// terminal
 	"terminal.integrated.fontFamily": "Monaspace Neon, MonoLisa, Monocraft, JetBrains Mono, IBM Plex Mono, Mononoki Nerd Font, Fira Code",
 	"terminal.integrated.fontSize": 14,
 	"terminal.integrated.cursorStyle": "line",
 	"terminal.integrated.cursorBlinking": false,
 	"terminal.integrated.defaultProfile.linux": "zsh",
 	"terminal.integrated.shellIntegration.decorationsEnabled": "never",
-	// "terminal.integrated.profiles.linux": {
-	//   "zsh": {
-	//     "path": "/usr/bin/env",
-	//     "args": [
-	//       "--",
-	//       "flatpak-spawn",
-	//       "--host",
-	//       "--env=TERM=xterm-256color",
-	//       "zsh"
-	//     ]
-	//   }
-	// },
-	// Emmet
+	// emmet
 	"emmet.includeLanguages": {
-		"javascript": "javascriptreact"
+		"javascript": "javascriptreact",
 	},
-	// Prettier
+	// prettier
 	"prettier.semi": false,
 	"prettier.useTabs": true,
 	"prettier.singleQuote": true,
 	"prettier.trailingComma": "es5",
 	"prettier.printWidth": 100,
-	// Formatting
+	// formatting
 	"editor.formatOnSave": true,
 	"editor.defaultFormatter": "esbenp.prettier-vscode",
-	// Svelte
+	// svelte
 	"[svelte]": {
 		"editor.defaultFormatter": "svelte.svelte-vscode",
-		"editor.codeLens": false
+		"editor.codeLens": false,
 	},
 	"svelte.enable-ts-plugin": true,
-	// Linux multi-cursor
+	// linux multi-cursor
 	"editor.multiCursorModifier": "ctrlCmd",
-	// Telemetry
+	// telemetry
 	"telemetry.telemetryLevel": "all",
-	// Git
+	// git
 	"diffEditor.renderSideBySide": false,
-	// Tailwind
+	// tailwind
 	"files.associations": {
-		"*.css": "tailwindcss"
+		"*.css": "tailwindcss",
 	},
-	// +Todo
+	// todo+
 	"todo.timekeeping.finished.time": false,
-	// GitLens
+	// gitlens
 	"gitlens.codeLens.enabled": false,
 	"gitlens.currentLine.enabled": false,
 	"gitlens.statusBar.enabled": true,
-	// CodeSnap
+	// codesnap
 	"codesnap.showWindowControls": false,
 	"codesnap.showLineNumbers": false,
-	"codesnap.shutterAction": "copy",
+	"codesnap.shutterAction": "save",
 	"codesnap.containerPadding": "0",
 	"codesnap.roundedCorners": false,
 	"codesnap.boxShadow": "none",
-	// XState
-	"xstate.nestTypegenFiles": false,
-	// CSS variables autocomplete
+	// css variables autocomplete
 	"cssvar.files": ["./node_modules/open-props/open-props.min.css"],
 	"cssvar.ignore": [],
 	"cssvar.extensions": ["css", "postcss", "svelte", "tsx"],
-	// Search
+	// search
 	"search.exclude": {
 		"**/node_modules": true,
 		"**/bower_components": true,
 		"**/*.code-search": true,
-		"**/.svelte-kit": true
+		"**/.svelte-kit": true,
 	},
 	"search.quickOpen.includeHistory": false,
-	// Linked editing
+	// linked editing
 	"editor.linkedEditing": true,
-	// Respect keyboard mappings
+	// respect keyboard mappings
 	"keyboard.dispatch": "keyCode",
-	// GitHub
+	// github
 	"githubPullRequests.fileListLayout": "tree",
 	"githubPullRequests.pullBranch": "never",
-	// Catppuccin
+	// catppuccin
 	"editor.semanticHighlighting.enabled": true,
 	"terminal.integrated.minimumContrastRatio": 1,
 	"catppuccin.italicKeywords": false,
 	"catppuccin.italicComments": false,
-	"catppuccin.boldKeywords": false
+	"catppuccin.boldKeywords": false,
+	// debugging
+	"debug.inlineValues": "off",
 }

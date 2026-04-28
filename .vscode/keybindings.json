@@ -1,0 +1,42 @@
+[
+	{
+		"key": "alt+[Minus]",
+		"command": "editor.action.commentLine",
+		"when": "editorTextFocus && !editorReadonly",
+	},
+	{
+		"key": "ctrl+oem_period",
+		"command": "workbench.action.terminal.toggleTerminal",
+	},
+	{
+		"key": "shift+alt+w",
+		"command": "editor.emmet.action.wrapWithAbbreviation",
+	},
+	{
+		"key": "shift+alt+up",
+		"command": "editor.action.copyLinesUpAction",
+		"when": "editorTextFocus && !editorReadonly",
+	},
+	{
+		"key": "shift+alt+down",
+		"command": "editor.action.copyLinesDownAction",
+		"when": "editorTextFocus && !editorReadonly",
+	},
+	{
+		"key": "shift+space",
+		"command": "editor.action.showHover",
+		"when": "editorTextFocus",
+	},
+	{
+		"key": "ctrl+=",
+		"command": "editor.action.fontZoomIn",
+	},
+	{
+		"key": "ctrl+-",
+		"command": "editor.action.fontZoomOut",
+	},
+	{
+		"key": "ctrl+0",
+		"command": "editor.action.fontZoomReset",
+	},
+]
