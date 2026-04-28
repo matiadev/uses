@@ -1,0 +1,29 @@
+[
+	{
+		"context": "Pane",
+		"bindings": {
+			"alt-left": "pane::GoBack",
+			"alt-right": "pane::GoForward",
+		},
+	},
+ {
+  "bindings": {
+   "ctrl-k up": "pane::SplitAndMoveUp"
+  }
+ },
+ {
+  "bindings": {
+   "ctrl-k down": "pane::SplitAndMoveDown"
+  }
+ },
+ {
+  "bindings": {
+   "ctrl-k left": "pane::SplitAndMoveLeft"
+  }
+ },
+ {
+  "bindings": {
+   "ctrl-k right": "pane::SplitAndMoveRight"
+  }
+ }
+]

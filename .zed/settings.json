@@ -1,0 +1,83 @@
+{
+	"diff_view_style": "split",
+	"cli_default_open_behavior": "existing_window",
+	"outline_panel": {
+		"dock": "left",
+	},
+	"collaboration_panel": {
+		"dock": "left",
+	},
+	"agent": {
+		"dock": "right",
+		"favorite_models": [],
+		"model_parameters": [],
+	},
+	"git_panel": {
+		"dock": "left",
+	},
+	"window_decorations": "server",
+	"ui_font_family": "JetBrains Mono",
+	"ui_font_size": 16,
+	"buffer_font_family": "JetBrains Mono",
+	"buffer_font_size": 16,
+	"buffer_line_height": { "custom": 2 },
+	"theme": {
+		"mode": "dark",
+		"light": "Poimandres Light",
+		"dark": "Poimandres",
+	},
+	"icon_theme": "Catppuccin Mocha",
+	"cursor_blink": false,
+	"scrollbar": { "show": "never" },
+	"hard_tabs": true,
+	"tab_size": 2,
+	"soft_wrap": "editor_width",
+	"terminal": {
+		"dock": "right",
+		"font_family": "JetBrains Mono",
+	},
+	"format_on_save": "on",
+	"restore_on_startup": "launchpad",
+	"tab_bar": { "show": false },
+	"edit_predictions": { "provider": "none", "mode": "subtle" },
+	"agent_servers": {
+		"opencode": {
+			"default_mode": "plan",
+			"default_model": "opencode-go/glm-5",
+			"type": "registry",
+		},
+	},
+	"context_servers": {
+		"svelte-mcp": {
+   "enabled": true,
+			"remote": false,
+			"settings": {},
+		},
+	},
+	"diagnostics": {
+		"inline": { "enabled": false },
+	},
+	"debugger": {
+		"dock": "right",
+	},
+	"inlay_hints": {
+		"show_value_hints": false,
+	},
+	"project_panel": {
+		"dock": "left",
+		"auto_fold_dirs": false,
+	},
+	// "toolbar": {
+	// 	"breadcrumbs": false,
+	// 	"quick_actions": false,
+	// },
+	// "gutter": {
+	// 	"line_numbers": false,
+	// 	"folds": false,
+	// 	"runnables": false,
+	// 	"breakpoints": false,
+	// },
+	// "git": {
+	// 	"git_gutter": "hide",
+	// },
+}
